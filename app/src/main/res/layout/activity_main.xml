@@ -10,10 +10,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Primeiro Teste"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="253dp"
+        android:layout_height="116dp"
+        android:clickable="true"
+        android:onClick="a"
+        android:text="Aperte"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="343dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
