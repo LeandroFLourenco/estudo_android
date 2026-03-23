@@ -8,32 +8,31 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Primeiro Teste"
+        android:text="CALCULADORA"
+        android:textColorLink="#9C27B0"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.191" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="253dp"
-        android:layout_height="116dp"
-        android:clickable="true"
-        android:onClick="a"
-        android:text="Aperte"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="516dp" />
-
-    <EditText
-        android:id="@+id/editTextNumberPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="343dp" />
+        android:id="@+id/btnAbrir"
+        android:layout_width="128dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="389dp"
+        android:text="Abrir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
